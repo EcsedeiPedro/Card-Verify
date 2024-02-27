@@ -1,0 +1,15 @@
+@mixin gradientFrontCard {
+  background: rgb(125,76,79);
+  background: -moz-linear-gradient(217deg, rgba(125,76,79,1) 0%, rgba(0,0,0,1) 100%, rgba(76,5,25,1) 855858%, rgba(244,63,94,1) 855858%);
+  background: -webkit-linear-gradient(217deg, rgba(125,76,79,1) 0%, rgba(0,0,0,1) 100%, rgba(76,5,25,1) 855858%, rgba(244,63,94,1) 855858%);
+  background: linear-gradient(217deg, rgba(125,76,79,1) 0%, rgba(0,0,0,1) 100%, rgba(76,5,25,1) 855858%, rgba(244,63,94,1) 855858%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7d4c4f",endColorstr="#f43f5e",GradientType=1);
+}
+
+@mixin gradientLeftSide {
+  background: rgb(244,63,94);
+  background: -moz-linear-gradient(0deg, rgba(244,63,94,1) 0%, rgba(251,113,133,1) 35%, rgba(190,18,60,1) 72%, rgba(76,5,25,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(244,63,94,1) 0%, rgba(251,113,133,1) 35%, rgba(190,18,60,1) 72%, rgba(76,5,25,1) 100%);
+  background: linear-gradient(0deg, rgba(244,63,94,1) 0%, rgba(251,113,133,1) 35%, rgba(190,18,60,1) 72%, rgba(76,5,25,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f43f5e",endColorstr="#4c0519",GradientType=1);
+}
